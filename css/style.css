@@ -615,8 +615,7 @@ header .innerchild .auth p {
 /* Третий блок */
 
 .thirdblock {
-    border: 2px solid black;
-    width: 1339px;
+    width: 1216px;
     height: 600px;
     margin-top: 250px;
     display: flex;
@@ -674,4 +673,355 @@ header .innerchild .auth p {
 .thirdblock .secondsemblems img:nth-child(2) {
     width: 197px;
     height: 58px;
+}
+
+.thirdblock .bird {
+    position: relative;
+    left: 380px;
+    top: 300px;
+}
+
+/* Четвёртый блок */
+
+.fourthblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1132px;
+    width: 1216px;
+}
+
+.fourthblock .innerchild {
+    text-align: center;
+    width: 1152px;
+    height: 723.55px;
+}
+
+.fourthblock .innerchild p:nth-child(1) {
+    color: #221437;
+    font-weight: 300;
+    margin-right: 270px;
+    font-size: 72px;
+    line-height: 81px;
+}
+
+.fourthblock .innerchild p:nth-child(2) {
+    color: #221437;
+    font-weight: 300;
+    margin-left: 140px;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.fourthblock .inner-content {
+    width: 1152px;
+    height: 573.94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthblock .inner-content img {
+    position: absolute;
+    width: 1152px;
+}
+
+.fourthblock .inner-content .fgblocks {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthblock .inner-content .fgblocks .fg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 270px;
+    height: 100%;
+}
+
+.fourthblock .inner-content .fgblocks .fg .innerblock {
+    background-color: white;
+    z-index: 1;
+    width: 270px;
+    height: 250px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.fourthblock .inner-content .fgblocks .fg .innerblock .header {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 45.38px;
+}
+
+.fourthblock .inner-content .fgblocks .fg .innerblock .header p {
+    color: white;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.fourthblock .inner-content .fgblocks .first .innerblock .header {
+    background-color: #793CFB;
+}
+
+.fourthblock .inner-content .fgblocks .second .innerblock .header {
+    background-color: #ABC264;
+}
+
+.fourthblock .inner-content .fgblocks .third .innerblock .header {
+    background-color: #FED758;
+}
+
+.fourthblock .inner-content .fgblocks .second .innerblock {
+    margin-top: -5px;
+}
+
+.fourthblock .fgblocks .first .imgs {
+    width: 125.71px;
+    height: 52.23px;
+    margin-top: 30px;
+}
+
+.fourthblock .fgblocks .first .imgs img {
+    position: relative;
+    width: 125.71px;
+    height: 52.23px;
+    margin-right: 40px;
+}
+
+.fourthblock .fgblocks .first p:nth-child(3) {
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.fourthblock .fgblocks .first .colabs {
+    margin-top: 20px;
+    width: 100%;
+    height: 29.11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthblock .fgblocks .first .colabs .text {
+    position: relative;
+    margin-top: 20px;
+    width: 95.36px;
+    height: 29.11px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 10.5px;
+}
+
+.fourthblock .fgblocks .first .line {
+    width: 60.72px;
+    height: 8.56px;
+    background-color: #DFEAEE;
+    border-radius: 20px;
+}
+
+.fourthblock .fgblocks .second .KP {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthblock .fgblocks .second .KP .personas {
+    margin-left: 10px;
+    background-color: #EFF7FD;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+}
+
+.fourthblock .fgblocks .second .KP .kits {
+    margin-right: 5px;
+    background-color: #EFF7FD;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+}
+
+.fourthblock .fgblocks .second .KP img {
+    margin-left: 95px;
+    margin-top: 9px;
+    width: 9px;
+    height: 7px;
+}
+
+.fourthblock .fgblocks .second .inner-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthblock .fgblocks .second .lines {
+    width: 80%;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+}
+
+.fourthblock .fgblocks .second .lines .first  {
+    background-color: #DFEAEE;
+    border-radius: 25px;
+    width: 35.16px;
+    height: 8.57px;
+}
+
+.fourthblock .fgblocks .second .lines .second  {
+    background-color: #DFEAEE;
+    border-radius: 25px;
+    width: 58.31px;
+    height: 8.57px;
+    margin-left: 5px;
+}
+
+.fourthblock .fgblocks .second .lines .third  {
+    background-color: #DFEAEE;
+    border-radius: 25px;
+    width: 21.44px;
+    height: 8.57px;
+    margin-left: 5px;
+}
+
+.fourthblock .fgblocks .second .lines .fourth  {
+    background-color: #DFEAEE;
+    border-radius: 25px;
+    width: 41.16px;
+    height: 8.57px;
+    margin-left: 5px;
+}
+
+.fourthblock .fgblocks .second .costs {
+    width: 270px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fourthblock .fgblocks .second .costs p {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.fourthblock .fgblocks .second .costs p:nth-child(1) {
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.fourthblock .fgblocks .second .costs .line {
+    border: 2px solid #DFEAEE;
+    width: 200px;
+    height: 50px;
+}
+
+.fourthblock .fgblocks .second .costs .cst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourthblock .fgblocks .second .costs .bottom-line {
+    background-color: #DFEAEE;
+    width: 30px;
+    height: 5px;
+    border-radius: 20px;
+    margin-top: -25px;
+}
+
+.fourthblock .fgblocks .third .innerblock .p1 {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents {
+    margin-top: 25px;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents div {
+    background-color: #F3FFCF;
+    display: flex;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents div img {
+    position: relative;
+    background-color: white;
+    width: 25px;
+    height: 22px;
+    left: 46px;
+    bottom: 5px;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents div .text {
+    position: relative;
+    top: 35px;
+    right: 10px;
+    height: 20px;
+    border-radius: 25px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    font-weight: 550;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .pdf .text {
+    background-color: #FED758;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .link .text {
+    background-color: #588DFA;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .png .text {
+    background-color: #AEC569;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .pdf {
+    width: 30%;
+    height: 90px;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .link {
+    width: 30%;
+    height: 90px;
+}
+
+.fourthblock .fgblocks .third .innerblock .documents .png {
+    width: 30%;
+    height: 90px;
+}
+
+.fourthblock .fgblocks .fg .text-bottom {
+    color: #221437;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 30px;
 }
