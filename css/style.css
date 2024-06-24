@@ -1305,14 +1305,12 @@ header .innerchild .auth p {
 /* Седьмой блок */
 
 .sevenblock {
-    border: 2px solid red;
     height: 1000px;
     width: 1216px;
     display: flex;
 }
 
 .sevenblock .secondinner {
-
     width: 350px;
     height: 600px;
     margin-left: 85px;
@@ -1384,4 +1382,50 @@ header .innerchild .auth p {
     position: relative;
     right: 180px;
     top: 30px;
+}
+
+/* Восьмой блок */
+
+.eightblock {
+    border: 2px solid black;
+    width: 1200px;
+    height: 600px;
+}
+
+.eightblock img {
+    max-height: 577px;
+    max-width: 365px;
+    margin-left: 100px;
+}
+
+.eightblock .innerchild {
+    border: 2px solid black;
+    width: 365px;
+    height: 315px;
+    margin-left: 650px;
+    margin-top: 150px;
+}
+
+.eightblock .innerchild p:nth-child(1) {
+    color: #221437;
+    font-size: 28px;
+    line-height: 36.43px;
+}
+
+.eightblock .innerchild .text p:nth-child(1) {
+    color: #221437;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.eightblock .innerchild .text p:nth-child(2) {
+    color: #9FB55D;
+    position: relative;
+    font-size: 14px;
+    line-height: 20.16px;
+    margin-left: 70px;
+    bottom: 20px;
+    font-weight: 400;
 }
