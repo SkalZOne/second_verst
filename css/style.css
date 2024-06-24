@@ -1399,7 +1399,6 @@ header .innerchild .auth p {
 }
 
 .eightblock .innerchild {
-    border: 2px solid black;
     width: 365px;
     height: 315px;
     margin-left: 650px;
@@ -1428,4 +1427,265 @@ header .innerchild .auth p {
     margin-left: 70px;
     bottom: 20px;
     font-weight: 400;
+}
+
+/* Девятый блок */
+
+.nineblock {
+    border: 2px solid black;
+    width: 1036.81px;
+    height: 780.17px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.nineblock img {
+    position: relative;
+    max-width: 350px;
+    margin-left: 100px;
+    top: 6978px;
+}
+
+.nineblock .menu {
+    background-color: #ABC264;
+    width: 548.25px;
+    height: 146.2px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.nineblock .innermenu {
+    position: relative;
+    width: 434.35px;
+    height: 257.55px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    left: 55px;
+    bottom: 50px;
+}
+
+.nineblock .innermenu .header {
+    background-color: white;
+    width: 434.35px;
+    height: 62.9px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nineblock .innermenu .header p {
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.nineblock .circle {
+    background-color: #FFDB5D;
+    position: absolute;
+    left: 660px;
+    top: 7300px;
+    width: 23.8px;
+    height: 23.8px;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    font-weight: 600;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nineblock .innermenu .innerchild {
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    background-color: white;
+}
+
+.nineblock .innermenu .innerchild .column {
+    background-color: #ABC264;
+    width: 35.7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.nineblock .innermenu .innerchild .firstcolumn {
+    height: 25.9px;
+}
+
+.nineblock .innermenu .innerchild .secondcolumn {
+    height: 58.65px;
+}
+
+.nineblock .innermenu .innerchild .thirdcolumn {
+    height: 83.3px;
+}
+
+.nineblock .innermenu .innerchild .fourthcolumn {
+    height: 93.5px;
+}
+
+.nineblock .innermenu .innerchild .fifthcolumn {
+    height: 79.05px;
+}
+
+.nineblock .innermenu .innerchild .sixthcolumn {
+    height: 103.7px;
+}
+
+.nineblock .innermenu .innerchild .seventhcolumn {
+    height: 58.65px;
+}
+
+.nineblock .innermenu .innerchild .column .inner {
+    background-color: #FFDB5D;
+    width: 35.7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nineblock .innermenu .innerchild .firstcolumn .inner {
+    height: 11.9px;
+}
+
+.nineblock .innermenu .innerchild .secondcolumn .inner {
+    height: 38.25px;
+}
+
+.nineblock .innermenu .innerchild .thirdcolumn .inner {
+    height: 45.9px;
+}
+
+.nineblock .innermenu .innerchild .fourthcolumn .inner {
+    height: 49.3px;
+}
+
+.nineblock .innermenu .innerchild .fifthcolumn .inner {
+    height: 7.65px;
+}
+
+.nineblock .innermenu .innerchild .sixthcolumn .inner {
+    height: 93.5px;
+}
+
+.nineblock .innermenu .innerchild .seventhcolumn .inner {
+    height: 28.9px;
+}
+
+.nineblock .innermenu .innerchild-bottom {
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nineblock .innermenu .innerchild-bottom .line {
+    background-color: #CEDBE3;
+    border-radius: 5px;
+    width: 35.7px;
+    height: 8.5px;
+    margin-top: 20px;
+}
+
+.nineblock .innermenu .innerchild-bottom .firstline {
+    width: 24.65px;
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+.nineblock .cursor {
+    position: absolute;
+    top: 7430px;
+    left: 560px;
+    color: #221437;
+    max-width: 21.31px;
+    max-height: 21.31px;
+}
+
+.nineblock .right-content {
+    width: 316.8px;
+    height: 600px;
+    position: relative;
+    left: 620px;
+    bottom: 550px;
+}
+
+.nineblock .right-content p:nth-child(1) {
+    color: #793CFB;
+    font-size: 13px;
+    line-height: 17.64px;
+    font-weight: 600;
+}
+
+.nineblock .right-content p:nth-child(2) {
+    color: #221437;
+    font-size: 32px;
+    line-height: 36.43px;
+    letter-spacing: 0.72px;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.nineblock .right-content p:nth-child(3) {
+    color: #221437;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 20px;
+}
+
+.nineblock .right-content button {
+    background-color: #793CFB;
+    border-radius: 36px;
+    margin-top: 20px;
+    width: 121px;
+    height: 53px;
+    color: white;
+    font-size: 13px;
+    line-height: 17.64px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nineblock .back4 {
+    position: absolute;
+    right: 100px;
+    top: 7065px;
+    min-width: 1200px;
+    min-height: 846p;
+    z-index: -3;
+}
+
+.nineblock .fay {
+    position: absolute;
+    top: 7650px;
+    left: 610px;
+}
+
+.nineblock .blackline {
+    position: absolute;
+    max-width: 139.48px;
+    max-height: 391.64px;
+    top: 7338px;
+    left: 500px;
+}
+
+.nineblock .telegramm {
+    position: absolute;
+    max-width: 139.48px;
+    max-height: 391.64px;
+    top: 7300px;
+    left: 470px;
 }
