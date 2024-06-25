@@ -619,6 +619,7 @@ header .innerchild .auth p {
     width: 1216px;
     height: 600px;
     margin-top: 250px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1387,7 +1388,6 @@ header .innerchild .auth p {
 /* Восьмой блок */
 
 .eightblock {
-    border: 2px solid black;
     width: 1200px;
     height: 600px;
 }
@@ -1432,7 +1432,6 @@ header .innerchild .auth p {
 /* Девятый блок */
 
 .nineblock {
-    border: 2px solid black;
     width: 1036.81px;
     height: 850px;
     margin-left: 80px;
@@ -1670,7 +1669,7 @@ header .innerchild .auth p {
 
 .nineblock .fay {
     position: absolute;
-    top: 7650px;
+    top: 7700px;
     left: 610px;
 }
 
@@ -1678,7 +1677,7 @@ header .innerchild .auth p {
     position: absolute;
     max-width: 139.48px;
     max-height: 391.64px;
-    top: 7338px;
+    top: 7388px;
     left: 500px;
 }
 
@@ -1686,14 +1685,13 @@ header .innerchild .auth p {
     position: absolute;
     max-width: 139.48px;
     max-height: 391.64px;
-    top: 7300px;
+    top: 7360px;
     left: 470px;
 }
 
 /* Десятый блок */
 
 .tenblock {
-    border: 2px solid black;
     height: 900px;
     width: 1200px;
     margin-top: 50px;
@@ -1703,7 +1701,7 @@ header .innerchild .auth p {
 
 .tenblock .leftblock {
     height: 400px;
-    width: 300px;
+    min-width: 300px;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -1747,7 +1745,7 @@ header .innerchild .auth p {
     height: 380.13px;
     width: 502.99px;
     margin-top: 200px;
-    margin-right: 50px;
+    margin-left: 190px;
     border-radius: 25px;
 }
 
@@ -1939,7 +1937,331 @@ header .innerchild .auth p {
 }
 
 .tenblock .star2 {
+    position: relative;
+    top: 550px;
+    right: 310px;
+    width: 461px;
+    height: 377px;
+}
+
+/* Одинадцатый блок */
+
+.elevenblock {
+    width: 1036.8px;
+    height: 1088.17px;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elevenblock p {
+    font-size: 61px;
+    line-height: 72.2px;
+    text-align: center;
+    width: 831px;
+    color: #221437;
+}
+
+.elevenblock img {
     position: absolute;
-    top: 8450px;
-    left: 950px;
+    min-width: 935.88px;
+    max-height: 320.07px;
+    top: 9290px;
+}
+
+.elevenblock .innerchild {
+    height: 654.51px;
+    width: 936.36px;
+    margin-top: 277px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elevenblock .innerchild .mainheader {
+    background-color: #FED758;
+    width: 936.36px;
+    border-radius: 5px;
+    height: 192.21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elevenblock .innerchild .mainheader p {
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.elevenblock .innerchild .body {
+    position: relative;
+    background-color: white;
+    border-radius: 15px;
+    width: 810.21px;
+    height: 438.98px;
+    bottom: 40px;
+}
+
+.elevenblock .innerchild .body .header {
+    width: 100%;
+    height: 60.27px;
+}
+
+.elevenblock .innerchild .body .header p{
+    position: relative;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    right: 300px;
+    bottom: 5px;
+}
+
+.elevenblock .innerchild .body .inner-content {
+    height: 300px;
+    width: 750px;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.elevenblock .innerchild .body .inner-content .sector {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.elevenblock .innerchild .body .inner-content .sector .head {
+    height: 20px;
+    color: #717678;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.elevenblock .innerchild .body .inner-content .third {
+    height: 100%;
+    width: 300px;
+}
+
+.elevenblock .innerchild .body .inner-content .fourth {
+    height: 100%;
+    width: 120px;
+}
+
+.elevenblock .innerchild .body .inner-content .fifth {
+    height: 100%;
+    width: 120px;
+}
+
+.elevenblock .innerchild .body .inner-content .sector .innerblock {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.elevenblock .innerchild .body .inner-content .sector .innerblock .line {
+    background-color: #D7D1C0;
+    width: 30.94px;
+    height: 8.96px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.elevenblock .innerchild .body .inner-content .sector .innerblock .linesecond {
+    background-color: #D7D1C0;
+    width: 43.97px;
+    height: 8.96px;
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.elevenblock .innerchild .body .inner-content .description .innerblock .linesecond {
+    background-color: #D7D1C0;
+    width: 59.44px;
+    height: 8.96px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.elevenblock .innerchild .body .inner-content .description .innerblock .linethird {
+    background-color: #D7D1C0;
+    width: 80.61px;
+    height: 8.96px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.elevenblock .innerchild .body .inner-content .description .innerblock .linefourth {
+    background-color: #D7D1C0;
+    position: relative;
+    width: 71.66px;
+    height: 8.96px;
+    border-radius: 25px;
+    top: 25px;
+    right: 144px;
+}
+
+.elevenblock .innerchild .body .inner-content .description .innerblock .linefive {
+    background-color: #D7D1C0;
+    position: relative;
+    width: 33.39px;
+    height: 8.96px;
+    border-radius: 25px;
+    top: 25px;
+    right: 139px;
+}
+
+.elevenblock .innerchild .body .inner-content .description .innerblock .linesix {
+    background-color: #D7D1C0;
+    position: relative;
+    width: 80.61px;
+    height: 8.96px;
+    border-radius: 25px;
+    top: 25px;
+    right: 133px;
+}
+
+.elevenblock .innerchild .body .inner-content .priority .innerblock .first {
+    background-color: #ABC264;
+}
+
+.elevenblock .innerchild .body .inner-content .priority .innerblock .second {
+    background-color: #FED758;
+}
+
+.elevenblock .innerchild .body .inner-content .priority .innerblock .third {
+    background-color: #F4A5EC;
+}
+
+/* Двенадцатый блок */
+
+.twelveblock {
+    width: 1065.59px;
+    height: 785.44px;
+    margin-left: 65px;
+    margin-top: 150px;
+}
+
+.twelveblock p {
+    font-size: 53px;
+    text-align: center;
+    color: #221437;
+    line-height: 70.85px;
+}
+
+.twelveblock img {
+    margin-left: 150px;
+}
+
+/* Тринадцатый блок */
+
+.thirteenblock {
+    width: 1036.8px;
+    height: 400.38px;
+    margin-left: 80px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thirteenblock p {
+    font-size: 81px;
+    text-align: center;
+    width: 759px;
+    color: #221437;
+    line-height: 90px;
+}
+
+.thirteenblock .innerchild {
+    width: 531.25px;
+    height: 77.59px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirteenblock .innerchild input {
+    border-radius: 36px;
+    width: 329px;
+    height: 58px;
+}
+
+.thirteenblock .innerchild input::placeholder {
+    color: black;
+    text-indent: 20px;
+    font-weight: 500;
+}
+
+.thirteenblock .innerchild button {
+    background-color: #793CFB;
+    border-radius: 36px;
+    width: 174px;
+    height: 56px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+/* Футер */
+
+footer {
+    width: 100%;
+    height: 340px;
+    display: flex;
+}
+
+footer img {
+    max-width: 150px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+footer .inner {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .inner:nth-child(2) {
+    margin-left: 460px;
+}
+
+footer .inner p {
+    color: #221437;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 18.9px;
+    font-size: 13px;
+    margin-top: 60px;
+}
+
+footer .inner a:nth-child(2) {
+    margin-top: 10px;
+}
+
+footer .inner a {
+    color: black;
+    font-size: 14px;
+    line-height: 26.42px;
+}
+
+footer .terms {
+    color: #221437;
+    position: absolute;
+    top: 11850px;
+    left: 100px;
+    font-size: 12px;
+    line-height: 17.64px;
+    font-weight: 600;
 }
