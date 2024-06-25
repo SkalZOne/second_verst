@@ -1434,7 +1434,7 @@ header .innerchild .auth p {
 .nineblock {
     border: 2px solid black;
     width: 1036.81px;
-    height: 780.17px;
+    height: 850px;
     margin-left: 80px;
     margin-top: 50px;
 }
@@ -1688,4 +1688,258 @@ header .innerchild .auth p {
     max-height: 391.64px;
     top: 7300px;
     left: 470px;
+}
+
+/* Десятый блок */
+
+.tenblock {
+    border: 2px solid black;
+    height: 900px;
+    width: 1200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tenblock .leftblock {
+    height: 400px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.tenblock .leftblock p:nth-child(1) {
+    color: #793CFB; 
+    font-size: 13px;
+    line-height: 17.64px;
+    font-weight: 600;
+}
+
+.tenblock .leftblock p:nth-child(2) {
+    color: #221437; 
+    font-size: 33px;
+    line-height: 36.43px;
+    margin-top: 15px;
+}
+
+.tenblock .leftblock p:nth-child(3) {
+    color: #221437; 
+    font-size: 17px;
+    line-height: 25.2px;
+    margin-top: 20px;
+}
+
+.tenblock .leftblock button {
+    background-color: #793CFB;
+    border-radius: 36px;
+    margin-top: 20px;
+    width: 121px;
+    height: 53px;
+    color: white;
+    font-size: 13px;
+    line-height: 17.64px;
+    letter-spacing: 1.3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tenblock .rightblock {
+    height: 380.13px;
+    width: 502.99px;
+    margin-top: 200px;
+    margin-right: 50px;
+    border-radius: 25px;
+}
+
+.tenblock .rightblock .header {
+    width: 502.99px;
+    height: 46.74px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.tenblock .rightblock .header .red {
+    background-color: #FF7E76;
+    width: 6.6px;
+    height: 6.6px;
+    border-radius: 50%;
+}
+
+.tenblock .rightblock .header .yellow {
+    background-color: #F7E177;
+    width: 6.6px;
+    height: 6.6px;
+    border-radius: 50%;
+}
+
+.tenblock .rightblock .header .green {
+    background-color: #B4CF80;
+    width: 6.6px;
+    height: 6.6px;
+    border-radius: 50%;
+}
+
+.tenblock .rightblock .header .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 140px;
+    position: absolute;
+    width: 282.99px;
+    height: 21.98px;
+    opacity: 70%;
+}
+
+.tenblock .rightblock .header .link p {
+    font-size: 15px;
+    font-weight: 450;
+    color: #221437;
+}
+
+.tenblock .rightblock .header .link p {
+    font-size: 15px;
+    font-weight: 450;
+    color: #221437;
+}
+
+.tenblock .rightblock .header .fa-plus {
+    position: relative;
+    left: 350px;
+}
+
+.tenblock .rightblock .elements {
+    width: 120px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tenblock .rightblock .innertext {
+    height: 50px;
+    margin-top: 50px;
+    color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.tenblock .rightblock .innerchild {
+    height: 225px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.tenblock .rightblock .innerchild .inner {
+    height: 169.81px;
+    width: 133.35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenblock .rightblock .innerchild .inner img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 36.99px;
+    height: 28.95px;
+}
+
+.tenblock .rightblock .innerchild .inner .text {
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    color: #221437;
+    font-size: 13px;
+    text-align: center;
+    line-height: 15px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+}
+
+.tenblock .rightblock .innerchild .inner .lines {
+    width: 100px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.tenblock .rightblock .innerchild .inner .lines .sector {
+    height: 5px;
+    margin-bottom: 0.5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tenblock .rightblock .innerchild .inner .lines .firstlines .first {
+    background-color: #E1EDF1;
+    width: 42.89px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner .lines .firstlines .second {
+    background-color: #E1EDF1;
+    width: 15.6px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner .lines .firstlines .third {
+    background-color: #E1EDF1;
+    width: 33.53px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner .lines .secondlines .first {
+    background-color: #E1EDF1;
+    width: 11.7px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner .lines .secondlines .second {
+    background-color: #E1EDF1;
+    width: 47.57px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner .lines .secondlines .third {
+    background-color: #E1EDF1;
+    width: 31.97px;
+    height: 5.45px;
+    border-radius: 25px;
+} 
+
+.tenblock .rightblock .innerchild .inner button {
+    background-color: #FED758;
+    width: 79.54px;
+    height: 27.26px;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tenblock .rightblock .innerchild .inner button .line {
+    width: 32.75px;
+    height: 5.45px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+}
+
+.tenblock .star2 {
+    position: absolute;
+    top: 8450px;
+    left: 950px;
 }
